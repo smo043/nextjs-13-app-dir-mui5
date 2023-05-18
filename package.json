@@ -1,0 +1,44 @@
+{
+  "name": "nextjs-app-router-mui5",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Next.js App Router with MUI5",
+  "author": {
+    "name": "Mohammed Salman",
+    "url": "https://github.com/smo043/nextjs-13-mui5.git"
+  },
+  "scripts": {
+    "build": "next build",
+    "check:types": "tsc -p tsconfig.json --noEmit",
+    "dev": "next dev --port 3002",
+    "format": "yarn format:nowrite --write",
+    "format:check": "yarn format:nowrite --list-different",
+    "format:nowrite": "prettier --ignore-path .gitignore \"**/*.+(js|ts|jsx|tsx|html|css|scss|json)\"",
+    "lint": "next lint",
+    "prepare": "node -e \"try { require('husky').install() } catch(e) { if (e.code !== 'MODULE_NOT_FOUND') throw e}\"",
+    "start": "next start",
+    "pre:commit": "run-p check:types format:check lint"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.11.0",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.1",
+    "next": "^13.4.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tss-react": "^4.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.0",
+    "@types/react": "^18.2.6",
+    "@types/react-dom": "^18.2.4",
+    "eslint": "^8.40.0",
+    "eslint-config-next": "^13.4.2",
+    "husky": "^8.0.3",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.8.8",
+    "typescript": "5.0.4"
+  }
+}
