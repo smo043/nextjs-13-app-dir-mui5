@@ -5,7 +5,7 @@
   "description": "Next.js App Router with MUI5",
   "author": {
     "name": "Mohammed Salman",
-    "url": "https://github.com/smo043/nextjs-13-mui5.git"
+    "url": "https://github.com/smo043/nextjs-13-app-dir-mui5.git"
   },
   "scripts": {
     "build": "next build",
