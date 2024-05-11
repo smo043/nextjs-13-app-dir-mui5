@@ -1,3 +1,6 @@
+Material UI has included this example in their repository. This repository is now being archived. 
+Please use the example from this link - https://github.com/mui/material-ui/tree/next/examples/material-ui-nextjs-ts
+
 # Next.Js 13 App Router and MUI5
 
 This guide will provide instructions for using MUI5 with latest Next.js App Router.
